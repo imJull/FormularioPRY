@@ -26,7 +26,9 @@ public class Person extends BaseModel {
     @Column
     public String pais;
 
-    @Column String ocupacion;
+    @Column
+    public String ocupacion;
+
 
 
 }

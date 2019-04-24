@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">FormularioPRY</string>
     <string name="action_settings">Settings</string>
+    <string name="ingNombre">Ingrese el Nombre</string>
+    <string name="ingOcupacion">Ingrese la Ocupación</string>
+    <string name="ingPais">Ingrese el Pais de Nacimiento</string>
+    <string name="ingEdad">Ingrese la Edad</string>
+    <string name="ingApellido">Ingrese el Apellido</string>
 </resources>
