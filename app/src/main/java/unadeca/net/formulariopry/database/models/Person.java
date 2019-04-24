@@ -5,10 +5,12 @@ import com.raizlabs.android.dbflow.annotation.PrimaryKey;
 import com.raizlabs.android.dbflow.annotation.Table;
 import com.raizlabs.android.dbflow.structure.BaseModel;
 
-import unadeca.net.formulariopry.database.PersonApp;
+import java.util.Locale;
+
+import unadeca.net.formulariopry.database.PersonDB;
 
 
-@Table(database = PersonApp.class)
+@Table(database = PersonDB.class)
 public class Person extends BaseModel {
     @Column
     @PrimaryKey (autoincrement = true)
@@ -29,6 +31,11 @@ public class Person extends BaseModel {
     @Column
     public String ocupacion;
 
+
+    public String toString(){
+        return String.format(Locale.getDefault(),"Nombre: %s\nApellido: %s\nEdad: %d\nPais: %s\nOcupacion: %s",
+                this.nombre, this.apellido, this.edad, this. pais, this.ocupacion);
+    }
 
 
 }

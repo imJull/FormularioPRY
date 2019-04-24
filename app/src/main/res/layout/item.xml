@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorMoradoClaro">
+
+    <ImageView
+        android:id="@+id/imgUpdate"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_weight="0.2"
+        android:src="@mipmap/jay2"
+        android:scaleType="center"
+        android:layout_marginEnd="@dimen/fab_margin"
+
+        />
+    <TextView
+        android:id="@+id/textoItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.9"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="center"
+        android:layout_marginEnd="@dimen/fab_margin"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        />
+
+    <ImageView
+        android:id="@+id/imgDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:src="@drawable/ic_delete_black_24dp"
+        android:scaleType="center"
+        android:layout_marginEnd="@dimen/fab_margin"
+        android:layout_gravity="center"
+
+        />
 
 </LinearLayout>

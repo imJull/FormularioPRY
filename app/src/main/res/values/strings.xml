@@ -6,4 +6,5 @@
     <string name="ingPais">Ingrese el Pais de Nacimiento</string>
     <string name="ingEdad">Ingrese la Edad</string>
     <string name="ingApellido">Ingrese el Apellido</string>
+    <string name="inOcupacion">Posicion</string>
 </resources>

@@ -6,75 +6,98 @@
     android:padding="@dimen/fab_margin"
     android:orientation="vertical"
     >
-
-    <android.support.design.widget.TextInputLayout
-        android:id="@+id/txtNombre"
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="400dp">
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/fab_margin">
-        <EditText
+        android:layout_height="400dp"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/txtNombre"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/ingNombre"
-            android:inputType="text"/>
+            android:layout_marginBottom="@dimen/fab_margin">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ingNombre"
+                android:inputType="text"/>
 
-    </android.support.design.widget.TextInputLayout>
+        </android.support.design.widget.TextInputLayout>
 
-    <android.support.design.widget.TextInputLayout
-        android:id="@+id/txtApellido"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/fab_margin">
-        <EditText
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/txtApellido"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/ingApellido"
-            android:inputType="text"/>
+            android:layout_marginBottom="@dimen/fab_margin">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ingApellido"
+                android:inputType="text"/>
 
-    </android.support.design.widget.TextInputLayout>
+        </android.support.design.widget.TextInputLayout>
 
-    <android.support.design.widget.TextInputLayout
-        android:id="@+id/txtEdad"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/fab_margin">
-        <EditText
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/txtEdad"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/ingEdad"
-            android:inputType="text"/>
+            android:layout_marginBottom="@dimen/fab_margin">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ingEdad"
+                android:inputType="text"/>
 
-    </android.support.design.widget.TextInputLayout>
+        </android.support.design.widget.TextInputLayout>
 
-    <android.support.design.widget.TextInputLayout
-        android:id="@+id/txtPais"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/fab_margin">
-        <EditText
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/txtPais"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/ingPais"
-            android:inputType="text"/>
+            android:layout_marginBottom="@dimen/fab_margin">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ingPais"
+                android:inputType="text"/>
 
-    </android.support.design.widget.TextInputLayout>
+        </android.support.design.widget.TextInputLayout>
 
-    <android.support.design.widget.TextInputLayout
-        android:id="@+id/txtOcupacion"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/fab_margin">
-        <EditText
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/txtOcupacion"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/ingOcupacion"
-            android:inputType="text"/>
+            android:layout_marginBottom="@dimen/fab_margin">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/inOcupacion"
+                android:inputType="text"
+                android:layout_marginBottom="@dimen/fab_margin"/>
+        </android.support.design.widget.TextInputLayout>
 
-    </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/frImagen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-    <ImageView
-        android:layout_width="@dimen/AnchoImagen"
-        android:layout_height="@dimen/AltoImagen" />
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="@dimen/AnchoImagen"
+                android:layout_height="@dimen/AltoImagen"
+                android:src="@mipmap/mfutbol" />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
 
 
 
